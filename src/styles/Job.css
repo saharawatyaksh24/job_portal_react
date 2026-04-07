@@ -1,0 +1,90 @@
+body {
+  background-color: red;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #1f3c88;
+  color: white;
+}
+
+.nav-btn {
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: none;
+  background: white;
+  color: #1f3c88;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Form */
+.form-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 10px;
+  background: #1f3c88;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Job List */
+.job-list {
+  width: 400px;
+}
+
+.job-card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.job-card button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.empty {
+  color: gray;
+}
